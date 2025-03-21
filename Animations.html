@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{width: 200px;height: 200px;transition: 1s;}
+        .a{background-color: red;}
+        .a:hover{width: 400px;}
+        .b{background: green;}
+        .b:hover{transform: rotateY(180deg);}
+        .c{background-color: yellow;}
+        .c:hover{transform: rotateX(180deg);}
+        .z{perspective: 10000px;}
+        .d{background-color: blue;}
+        .d:hover{transform:skew(45deg,45deg)}
+        .e{background-color: pink;text-align: center;}
+        .e:hover{transform:scale(2);}
+        .f{background-color: brown;}
+        .f:hover{transform: translate(50px,50px);}
+        .g{background-color: aqua;transform-origin: top right;}
+        .g:hover{transform: rotateY(360deg);}
+    </style>
+</head>
+<body>     
+    <div class="box a"></div>
+    <div class="box b">A</div>
+    <div class="z">
+        <div class="box c">ccccc
+
+        </div>
+    </div>
+
+    </div>
+    <div class="box d">d</div>
+    <div class="box e">sajit</div>
+    <div class="box f"></div>
+    <div class="box g">hello</div>
+</body>
+</html>
